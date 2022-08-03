@@ -1,1 +1,46 @@
-<p>numbers works!</p>
+<div>
+    <h1>Decimal Pipe and Percentage Pipe</h1>
+    <p>Pipes include in Angular for Numbers</p>
+</div>
+
+<div class="grid">
+    <div class="col-6">
+        <p-card header="Number Pipe">
+            <ul>
+                <li>pi | number</li>
+                <li>pi | number:'4.1-5'</li>
+                <li>pi | currency:'$' </li>
+                <li>pi | currency:'USD':'symbol-narrow':'1.0-4'</li>
+            </ul>
+        </p-card>
+    </div>
+    <div class="col-6">
+        <p-card header="Result">
+            <ul>
+                <li>{{pi | number}}</li>
+                <li>{{pi | number:'4.1-5'}}</li>
+                <li>{{pi | currency:'$'}}</li>
+                <li>{{pi | currency:'USD':'symbol-narrow':'1.0-4'}}</li>
+            </ul>
+        </p-card>
+    </div>
+</div>
+
+<div class="grid mt-3">
+    <div class="col-6">
+        <p-card header="Percentage Pipe">
+            <ul>
+                <li>por | percent</li>
+                <li>por | percent:'2.2-2'</li>
+            </ul>
+        </p-card>
+    </div>
+    <div class="col-6">
+        <p-card header="Result">
+            <ul>
+                <li>{{por | percent}}</li>
+                <li>{{por | percent:'2.2-2'}}</li>
+            </ul>
+        </p-card>
+    </div>
+</div>

@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BasicComponent implements OnInit {
 
+  date:Date = new Date();
+
   constructor() { }
 
   ngOnInit(): void {

@@ -5,18 +5,58 @@
 
 <div class="grid">
     <div class="col-4">
-        <p-card header="Hello World" subheader="">
-            Naaaa
+        <p-card header="UpperCase" [subheader]="'Sebastian' | uppercase">
+          sebastian | uppercase
         </p-card>
     </div>
     <div class="col-4">
-        <p-card header="Hello World">
-            Naaaa
+        <p-card header="LowerCase" [subheader]="'Sebastian' | lowercase">
+         SEBASTIAN | lowercase
         </p-card>
     </div>
     <div class="col-4">
-        <p-card header="Hello World">
-            Naaaa
+        <p-card header="TitleCase" [subheader]="'seBASTIAN' | titlecase">
+             seBASTIAN | titlecase
+        </p-card>
+    </div>
+</div>
+
+<div>
+    <h1>Date Pipes</h1>
+    <p>Pipes for Dates</p>
+</div>
+
+<div class="grid">
+    <div class="col-6">
+        <p-card header="DatePipe">
+         <ul>
+            <li>date</li>
+            <li>date | date</li>
+            <li>date | date:'short'</li>
+            <li>date | date:'medium'</li>
+            <li>date | date:'long'</li>
+            <li>date | date:'full'</li>
+            <li>date | date:'h:mm:s a E, MMMM, d, y'</li>
+            <hr>
+            <li>date | date:'h:mm:s a E, MMMM, d, y z':'GMT-3' | titlecase</li>
+            <li>date | date:'h:mm:s a E, MMMM, d, y z':'':'ja' | titlecase</li>
+         </ul>
+        </p-card>
+    </div>
+    <div class="col-6">
+        <p-card header="Result">
+         <ul>
+            <li>{{date}}</li>
+            <li>{{date | date}}</li>
+            <li>{{date | date:'short' | titlecase}}</li>
+            <li>{{date | date:'medium' | titlecase}}</li>
+            <li>{{date | date:'long' | titlecase}}</li>
+            <li>{{date | date:'full' | titlecase}}</li>
+            <li>{{date | date:'h:mm:s a E, MMMM, d, y' | titlecase}}</li>
+            <hr>
+            <li>{{date | date:'h:mm:s a E, MMMM, d, y z':'GMT-3' | titlecase}}</li>
+            <li>{{date | date:'h:mm:s a E, MMMM, d, y z':'':'ja' | titlecase}}</li>
+        </ul>
         </p-card>
     </div>
 </div>

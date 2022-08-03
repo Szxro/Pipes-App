@@ -4,6 +4,7 @@ import {ButtonModule} from 'primeng/button';
 import {CardModule} from 'primeng/card';
 import {InputTextModule} from 'primeng/inputtext';
 import {MenubarModule} from 'primeng/menubar';
+import {FieldsetModule} from 'primeng/fieldset';
 
 
 
@@ -14,6 +15,7 @@ import {MenubarModule} from 'primeng/menubar';
     CardModule,
     InputTextModule,
     MenubarModule,
+    FieldsetModule
   ]
 })
 export class PrimeNGModule { }

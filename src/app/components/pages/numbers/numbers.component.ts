@@ -5,6 +5,8 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './numbers.component.html'
 })
 export class NumbersComponent implements OnInit {
+  pi: number = 3.14159265359;
+  por:number = 0.48;
 
   constructor() { }
 
