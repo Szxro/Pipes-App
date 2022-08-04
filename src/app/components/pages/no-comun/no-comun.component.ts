@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { PrimeNGConfig } from 'primeng/api';
+import { interval, of } from 'rxjs';
 
 @Component({
   selector: 'app-no-comun',
@@ -28,6 +29,16 @@ export class NoComunComponent implements OnInit {
     age:35,
     address:'Something'
   }
+
+  //Async Pipe
+
+  observable=interval(1000);
+
+  promise=new Promise((resolve,reject)=>{
+    setTimeout(() => {
+      resolve('We have data')
+    },3500);
+  })
 
   constructor(private _config:PrimeNGConfig) { }
 
