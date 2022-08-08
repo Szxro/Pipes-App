@@ -1,27 +1,26 @@
 # PipesApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.7.
+This project is just to show example of the use of the pipes in angular and make some your own.
 
-## Development server
+# Preview :eyes:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+![image](https://user-images.githubusercontent.com/103012492/183486326-680efde9-8d05-499e-a562-ab9cfaad2535.png)
 
-## Code scaffolding
+# Technologies used in this project 👨‍💻
+* Angular (Basic Routing)
+* PrimeNG Styles
+* PrimeFlex
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# Prerequisites 📑
+1. Git clone this repostiory
+2. Know Typescript and some Angular concepts
+3. Know some PrimeNG and PrimeFlex concepts
 
-## Build
+# People involved in this project ⌨️
+* @Szxro 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# Hiring (Emails) 👌
+If you want to hire me , you only have to write to me.
+- szxrocode@gmail.com (@Szxro)
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
